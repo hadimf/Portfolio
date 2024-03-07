@@ -1,3 +1,4 @@
+/* Font */
 @font-face {
 	font-family: "Poppins";
 	src: url("./assets/Fonts/Poppins-Light.ttf") format("ttf"),
@@ -19,11 +20,30 @@
 	font-weight: 500;
 }
 
+
+/* Global */
 * {
 	font-family: "Poppins", sans-serif;
 
 	box-sizing: border-box;
 }
+
+.sections {
+	line-height: 1.8;
+}
+
+h4,
+p,
+h5 {
+	margin-bottom: 0;
+}
+
+h4,
+h5 {
+	margin-top: 0;
+
+}
+
 
 h2 {
 	font-weight: 400;
@@ -59,6 +79,8 @@ body {
 
 }
 
+/* Header */
+
 .header {
 	background-color: #333533;
 	height: 376px;
@@ -84,7 +106,6 @@ body {
 	padding: 8px 24px;
 	border: 2px solid #FFD100;
 	border-radius: 4px;
-
 }
 
 .header .lang {
@@ -96,9 +117,6 @@ body {
 	font-size: 12px;
 	opacity: 0.7;
 	align-self: flex-start;
-
-
-
 }
 
 
@@ -111,8 +129,6 @@ body {
 	margin-top: 0px;
 	padding: 6px;
 	margin: 42px 0px;
-	/* font-weight: 400; */
-
 
 }
 
@@ -122,19 +138,35 @@ body {
 	border-radius: 50%;
 }
 
-.language ol li:last-child~li {
-	color: brown;
-}
-
+/* Navbar */
 nav {
-	font-size: 24px;
+	font-size: 22px;
 	width: 250px;
+	height: 552px;
+	border-right: 1px solid #333533;
 
 }
 
+nav ul {
+	margin-top: 0;
+}
 
+nav ul li>span:hover {
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 36px;
+	background-color: #333533;
+	color: #FAFAFA;
+	padding: 0px 24px 0px 0px;
+	transition: 0.8s;
 
-nav ul li:hover {
+}
+
+nav ul li>span {
+	font-weight: 500;
+}
+
+/* nav ul li:hover {
 	display: inline-block;
 	cursor: pointer;
 	border-radius: 36px;
@@ -142,20 +174,27 @@ nav ul li:hover {
 	color: #FAFAFA;
 	padding: 0px 24px 0px 0px;
 
+} */
+nav ul li>span.active {
+	font-weight: 550;
+	transition: 0.8s;
+
 }
 
-nav ul li.active:hover {
+nav ul li>span.active:hover {
 	display: inline-block;
 	cursor: pointer;
 	border-radius: 36px;
 	background-color: #333533;
 	color: #FFD100;
 	padding: 0px 24px 0px 0px;
+	font-weight: 550;
+
 
 }
 
-nav li.active marker {
-	font-weight: 600;
+nav li>span.active marker {
+	font-weight: 550;
 }
 
 nav ul li .marker {
@@ -172,22 +211,192 @@ nav ul li .marker {
 
 }
 
+nav ul li>span.active .marker {
+	color: #FFD100;
+	background-color: #333533;
+}
+
 .space {
-	
-	
 	display: block;
 	height: 48px;
 	border-left: 1px dashed #333533;
 	margin: 16px 25px;
 }
 
+/* Sections */
+/* About Me */
 .sections {
 	width: 700px;
+
+}
+.about h4,.about h5,.about p{
+	font-size: 18px;
+}
+.sections h5 {
+	font-weight: 550;
 }
 
 .container {
 	display: flex;
 	/* flex-direction: row; */
 	justify-content: center;
-	padding: 40px 0;
+	padding: 53px 0;
+}
+
+.about {
+	display: flex;
+	flex-direction: column;
+	padding-left: 48px;
+	padding-top: 12px;
+}
+
+.about h5,
+.fa-clone {
+	color: #A0A0A0;
+}
+
+.info {
+	display: flex;
+	margin-top: 36px;
+	padding: 12px 0;
+
+}
+
+.info div {
+	width: 50%;
+}
+
+.info p {
+	margin-top: 6px;
+}
+
+
+.fa-clone {
+	margin-left: 14px;
+	font-size: 14px;
+}
+
+.fa-clone:hover {
+
+	cursor: pointer;
+	color: #333533;
+}
+
+.social {
+	margin-top: 36px;
+	padding: 12px 0;
+}
+
+.social li {
+	display: inline-block;
+}
+
+.social ul li {
+	margin-right: 32px;
+}
+
+.social img {
+	width: 56px;
+	height: 56px;
+	border-radius: 6px;
+}
+
+
+.social span.linkedin{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/linkedin.png);
+}
+.social span.linkedin:hover{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/linkedin-hover.png);
+	transition: 0.8s;
+}
+
+.social span.github{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/github.png);
+}
+.social span.github:hover{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/github-hover.png);
+	transition: 0.8s;
+}
+
+.social span.stackoverflow{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/stackoverflow.png);
+}
+.social span.stackoverflow:hover{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/stackoverflow-hover.png);
+	transition: 0.8s;
+
+}
+
+.social span.twitter{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/twitter.png);
+}
+.social span.twitter:hover{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/twitter-hover.png);
+	transition: 0.8s;
+}
+
+.social span.telegram{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/telegram.png);
+}
+.social span.telegram:hover{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/telegram-hover.png);
+	transition: 0.8s;
+}
+
+.social span.whatsapp{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/whatsapp.png);
+}
+.social span.whatsapp:hover{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/whatsapp-hover.png);
+	transition: 0.8s;
+}
+
+.social span.instagram{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/instagram.png);
+}
+.social span.instagram:hover{
+	display: inline-block;
+	width: 56px;
+	height: 56px;
+	background-image: url(../Icons/social/instagram-hover.png);
+	transition: 0.8s;
 }
