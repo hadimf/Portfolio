@@ -229,9 +229,13 @@ nav ul li>span.active .marker {
 	width: 700px;
 
 }
-.about h4,.about h5,.about p{
+
+.about h4,
+.about h5,
+.about p {
 	font-size: 18px;
 }
+
 .sections h5 {
 	font-weight: 550;
 }
@@ -302,13 +306,14 @@ nav ul li>span.active .marker {
 }
 
 
-.social span.linkedin{
+.social span.linkedin {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
 	background-image: url(../Icons/social/linkedin.png);
 }
-.social span.linkedin:hover{
+
+.social span.linkedin:hover {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
@@ -316,13 +321,14 @@ nav ul li>span.active .marker {
 	transition: 0.8s;
 }
 
-.social span.github{
+.social span.github {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
 	background-image: url(../Icons/social/github.png);
 }
-.social span.github:hover{
+
+.social span.github:hover {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
@@ -330,13 +336,14 @@ nav ul li>span.active .marker {
 	transition: 0.8s;
 }
 
-.social span.stackoverflow{
+.social span.stackoverflow {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
 	background-image: url(../Icons/social/stackoverflow.png);
 }
-.social span.stackoverflow:hover{
+
+.social span.stackoverflow:hover {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
@@ -345,13 +352,14 @@ nav ul li>span.active .marker {
 
 }
 
-.social span.twitter{
+.social span.twitter {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
 	background-image: url(../Icons/social/twitter.png);
 }
-.social span.twitter:hover{
+
+.social span.twitter:hover {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
@@ -359,13 +367,14 @@ nav ul li>span.active .marker {
 	transition: 0.8s;
 }
 
-.social span.telegram{
+.social span.telegram {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
 	background-image: url(../Icons/social/telegram.png);
 }
-.social span.telegram:hover{
+
+.social span.telegram:hover {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
@@ -373,13 +382,14 @@ nav ul li>span.active .marker {
 	transition: 0.8s;
 }
 
-.social span.whatsapp{
+.social span.whatsapp {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
 	background-image: url(../Icons/social/whatsapp.png);
 }
-.social span.whatsapp:hover{
+
+.social span.whatsapp:hover {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
@@ -387,16 +397,91 @@ nav ul li>span.active .marker {
 	transition: 0.8s;
 }
 
-.social span.instagram{
+.social span.instagram {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
 	background-image: url(../Icons/social/instagram.png);
 }
-.social span.instagram:hover{
+
+.social span.instagram:hover {
 	display: inline-block;
 	width: 56px;
 	height: 56px;
 	background-image: url(../Icons/social/instagram-hover.png);
 	transition: 0.8s;
 }
+
+/* My Skills */
+.technology {
+	display: flex;
+	flex-direction: column;
+	margin-left: 48px;
+	width: 840px;
+
+}
+
+.skill {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid #A0A0A0;
+	border-radius: 8px;
+	padding: 10px 24px 10px 24px;
+	margin-bottom: 24px;
+
+}
+
+.skill img {
+	vertical-align: middle;
+	width: 36px;
+	height: 36px;
+	margin-right: 12px;
+}
+
+.skill .left {
+	font-weight: 550;
+}
+
+.skill .right {
+
+	border-left: 1px solid #A0A0A0;
+	color: #A0A0A0;
+	height: 36px;
+	width: 180px;
+
+
+
+}
+
+.fa-signal {
+	padding:0 14px;
+	vertical-align: middle;
+}
+
+.tools {
+	display: flex;
+	flex-direction: column;
+	margin-left: 48px;
+	margin-top: 54px;
+	width: 840px;
+}
+.other {
+	display: flex;
+	flex-direction: column;
+	margin-left: 48px;
+	margin-top: 54px;
+	width: 840px;
+}
+
+.other li{
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 16px;
+	padding:7px 24px;
+	border: 1px solid #A0A0A0;
+	border-radius: 25px;
+	font-size: 18px;
+}
+
+
