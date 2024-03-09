@@ -26,6 +26,12 @@
 	font-family: "Poppins", sans-serif;
 
 	box-sizing: border-box;
+
+}
+
+a:visited,
+a:active {
+	color: #333533;
 }
 
 .sections {
@@ -106,6 +112,7 @@ body {
 	padding: 8px 24px;
 	border: 2px solid #FFD100;
 	border-radius: 4px;
+	color: #FFD100 !important;
 }
 
 .header .lang {
@@ -455,7 +462,7 @@ nav ul li>span.active .marker {
 }
 
 .fa-signal {
-	padding:0 14px;
+	padding: 0 14px;
 	vertical-align: middle;
 }
 
@@ -466,6 +473,7 @@ nav ul li>span.active .marker {
 	margin-top: 54px;
 	width: 840px;
 }
+
 .other {
 	display: flex;
 	flex-direction: column;
@@ -474,14 +482,100 @@ nav ul li>span.active .marker {
 	width: 840px;
 }
 
-.other li{
+.other li {
 	display: inline-block;
 	margin-right: 30px;
 	margin-bottom: 16px;
-	padding:7px 24px;
+	padding: 7px 24px;
 	border: 1px solid #A0A0A0;
 	border-radius: 25px;
 	font-size: 18px;
 }
 
+/* My Project */
 
+section:last-child {
+	margin-left: 48px;
+}
+
+section:last-child h4 {
+	margin-bottom: 24px;
+}
+
+.project {
+	border: 1px solid #333533;
+	border-radius: 8px;
+	width: 264px;
+	padding: 10px;
+	margin-bottom: 40px;
+
+}
+
+.project:not(:last-child) {
+	margin-right: 20px;
+}
+
+.project h5 {
+	font-size: 19px;
+
+}
+
+.project p {
+	color: #A0A0A0;
+}
+
+.tech {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: 35px;
+	font-size: 14px;
+}
+
+.tech li {
+	display: inline-block;
+}
+
+.tech img {
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+	font-size: 13px;
+}
+
+.buttons i {
+	margin-right: 5px;
+	color: #333533;
+}
+
+.buttons a:first-child {
+	padding: 8px 29px;
+}
+
+.buttons a:first-child:hover,
+.buttons a:hover i {
+	color: #A0A0A0;
+}
+
+.buttons a:last-child {
+	padding: 8px 10px;
+	border: 1px solid #333533;
+	border-radius: 4px;
+}
+
+.buttons a:last-child:hover,
+.buttons a:hover i {
+	color: #A0A0A0;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	width: 860px;
+}
