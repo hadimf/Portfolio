@@ -120,10 +120,12 @@ body {
 	border: 1px solid #FAFAFA;
 	border-radius: 4px;
 	padding: 4px 8px;
-	/* align-self; */
 	font-size: 12px;
 	opacity: 0.7;
-	align-self: flex-start;
+	position: absolute;
+    right: 300px;
+    top: 120px;
+	
 }
 
 
@@ -143,14 +145,18 @@ body {
 	width: 290.01px;
 	height: 288px;
 	border-radius: 50%;
+
+	
 }
+
+
 
 /* Navbar */
 nav {
 	font-size: 22px;
 	width: 250px;
-	height: 552px;
-	border-right: 1px solid #333533;
+	height: 100%;
+	/* border-right: 1px solid #333533; */
 
 }
 
@@ -234,8 +240,11 @@ nav ul li>span.active .marker {
 /* About Me */
 .sections {
 	width: 700px;
+	border-left: 1px solid #333533;
 
 }
+
+
 
 .about h4,
 .about h5,
