@@ -9,7 +9,7 @@
 @font-face {
 	font-family: "Poppins";
 	src: url("./assets/Fonts/Poppins-Medium.ttf") format("ttf"),
-		url("./assets/Fonts/Poppins-Medium.woff") format(woff);
+		url("./assets/Fonts/Poppins-Medium.woff") format("woff");
 	font-weight: 400;
 }
 
