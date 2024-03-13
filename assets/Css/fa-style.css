@@ -1,25 +1,127 @@
 @font-face {
-    font-family: "Vazir";
-    src: url(../Fonts/Vazirmatn-Light.ttf) format("ttf"),
-        url(../Fonts/Vazirmatn-Light.woff2) format("woff2");
+    font-family: "peyda";
+    src: url(../Fonts/peyda-light.ttf) format("ttf"),
+        url(../Fonts/peydaWeb-light.woff) format("woff2");
     font-weight: 300;
 }
 
 @font-face {
-    font-family: "Vazir";
-    src: url(../Fonts/Vazirmatn-Medium.ttf) format("ttf"),
-        url(../Fonts/Vazirmatn-Medium.woff2) format("woff2");
+    font-family: "peyda";
+    src: url(../Fonts/Peyda-Medium.ttf) format("ttf"),
+        url(../Fonts/PeydaWeb-Medium.woff) format("woff");
     font-weight: 400;
 }
 
 @font-face {
-    font-family: "Vazir";
-    src: url(../Fonts/Vazirmatn-Regular.ttf) format("ttf"),
-        url(../Fonts/Vazirmatn-Regular.woff2) format("woff2");
+    font-family: "peyda";
+    src: url(../Fonts/Peyda-Regular.ttf) format("ttf"),
+        url(../Fonts/PeydaWeb-Regular.woff) format("woff");
     font-weight: 500;
 }
 
 * {
-    font-family: "Vazir", sans-serif;
+    font-family: "peyda", sans-serif;
     box-sizing: border-box;
+}
+
+/* Global */
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    background-color: #333533;
+    justify-content: center;
+    align-items: center;
+    height: 376px;
+    margin: 0px;
+    padding: 48px 0;
+
+
+}
+
+.header img {
+    width: 288px;
+    height: 288px;
+    border-radius: 50%;
+    margin-left: 36px;
+}
+
+.header .title {
+    margin-left: 156px;
+}
+
+.header .name {
+    color: #FFD100;
+    font-size: 64px;
+    line-height: 90px;
+    font-weight: 600;
+}
+
+.header .position {
+    color: #FAFAFA;
+    font-size: 28px;
+    line-height: 1.5;
+
+}
+
+.header .position i {
+    color: #FFD100;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header .button {
+    display: inline-block;
+    margin-top: 24px;
+    border: 2px solid #FFD100;
+    color: #FFD100;
+    padding: 8px 24px;
+    border-radius: 4px;
+
+
+}
+
+.header .button i,
+.header .lang i {
+    margin-right: 4px;
+}
+
+.header .button:hover,
+.header .button:hover i {
+    background: #FFD100;
+    color: #333533;
+    transition: 0.6s;
+}
+
+.header .lang {
+    color: #FAFAFA;
+    font-size: 16px;
+    border: 1px solid #FAFAFA;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 12px;
+    opacity: 0.7;
+    align-self: flex-start;
+
+}
+
+.header .lang:hover {
+    opacity: 1;
+    transition: 0.6s;
 }
