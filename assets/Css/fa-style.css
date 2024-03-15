@@ -25,6 +25,10 @@
 }
 
 /* Global */
+ul {
+    padding: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -396,3 +400,71 @@ nav ul li.active:hover {
 }
 
 /* Technology */
+.technology {
+    display: flex;
+    flex-direction: column;
+    width: 840px;
+
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #A0A0A0;
+    border-radius: 8px;
+    padding: 10px 24px 10px 24px;
+    margin-bottom: 24px;
+
+}
+
+.skill img {
+    vertical-align: middle;
+    width: 36px;
+    height: 36px;
+    margin-left: 12px;
+}
+
+.skill .left {
+    font-weight: 550;
+}
+
+.skill .right {
+
+    color: #333533;
+    height: 36px;
+    width: 104px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.fa-signal {
+    padding: 0 14px;
+    vertical-align: middle;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+    margin-top: 54px;
+    width: 840px;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+    margin-top: 54px;
+    width: 840px;
+}
+
+.other li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 16px;
+    padding: 7px 24px;
+    border: 1px solid #A0A0A0;
+    border-radius: 25px;
+    font-size: 18px;
+}
