@@ -178,36 +178,221 @@ nav .space {
     margin-top: 16px;
     margin-bottom: 16px;
 }
+
 nav li.active .marker {
     background-color: #333533;
     color: #FFD100;
 }
+
 nav ul li:hover {
-	display: inline-block;
-	cursor: pointer;
-	border-radius: 36px;
-	background-color: #333533;
-	color: #FAFAFA;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 36px;
+    background-color: #333533;
+    color: #FAFAFA;
     padding: 0px 0px 0px 24px;
-	transition: 0.4s;
+    transition: 0.4s;
 
 }
 
 nav ul li.active:hover {
-	display: inline-block;
-	cursor: pointer;
-	border-radius: 36px;
-	background-color: #333533;
-	color: #FFD100;
-	padding: 0px 0px 0px 24px;
-	transition: 0.4s;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 36px;
+    background-color: #333533;
+    color: #FFD100;
+    padding: 0px 0px 0px 24px;
+    transition: 0.4s;
 
 }
 
+/* Sections */
 .sections {
     width: 840px;
+    margin-right: 48px;
+
 }
 
 .sections h4 {
     margin: 0;
 }
+
+/* About me */
+.about {
+    padding: 12px 0px;
+    font-size: 20px;
+}
+
+.info {
+    display: flex;
+    margin: 24px 0px;
+    padding: 12px 0px;
+
+
+}
+
+.info div {
+    width: 50%;
+}
+
+.info i {
+    color: #A0A0A0;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.info i:hover {
+    cursor: pointer;
+    color: #333533;
+    transition: 0.4s;
+
+}
+
+.info h5 {
+    margin: 0px 0px 6px 0px;
+    color: #A0A0A0;
+    font-weight: 600;
+}
+
+.info p {
+    margin: 0;
+}
+
+.social {
+    padding: 12px 0;
+}
+
+.social h5 {
+    margin: 0;
+    color: #A0A0A0;
+    font-weight: 600;
+}
+
+.social ul {
+    padding: 0;
+    margin: 16px 0px;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.social ul li {
+    margin-left: 32px;
+    padding: 0;
+}
+
+.social img {
+    width: 56px;
+    height: 56px;
+    border-radius: 6px;
+}
+
+
+.social span.linkedin {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/linkedin.png);
+}
+
+.social span.linkedin:hover {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/linkedin-hover.png);
+    transition: 0.8s;
+}
+
+.social span.github {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/github.png);
+}
+
+.social span.github:hover {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/github-hover.png);
+    transition: 0.8s;
+}
+
+.social span.stackoverflow {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/stackoverflow.png);
+}
+
+.social span.stackoverflow:hover {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/stackoverflow-hover.png);
+    transition: 0.8s;
+
+}
+
+.social span.twitter {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/twitter.png);
+}
+
+.social span.twitter:hover {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/twitter-hover.png);
+    transition: 0.8s;
+}
+
+.social span.telegram {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/telegram.png);
+}
+
+.social span.telegram:hover {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/telegram-hover.png);
+    transition: 0.8s;
+}
+
+.social span.whatsapp {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/whatsapp.png);
+}
+
+.social span.whatsapp:hover {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/whatsapp-hover.png);
+    transition: 0.8s;
+}
+
+.social span.instagram {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/instagram.png);
+}
+
+.social span.instagram:hover {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    background-image: url(../Icons/social/instagram-hover.png);
+    transition: 0.8s;
+}
+
+/* Technology */
