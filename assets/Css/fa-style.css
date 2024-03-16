@@ -29,12 +29,14 @@ ul {
     padding: 0;
 }
 
+
 a {
     text-decoration: none;
 }
 
 li {
     list-style-type: none;
+    margin: 0;
 }
 
 h1,
@@ -44,6 +46,7 @@ h2 {
 
 body {
     margin: 0;
+    text-align: right;
 }
 
 /* Header */
@@ -231,6 +234,7 @@ nav ul li.active:hover {
     display: flex;
     margin: 24px 0px;
     padding: 12px 0px;
+    font-size: 20px;
 
 
 }
@@ -264,6 +268,8 @@ nav ul li.active:hover {
 
 .social {
     padding: 12px 0;
+    font-size: 20px;
+
 }
 
 .social h5 {
@@ -404,6 +410,9 @@ nav ul li.active:hover {
     display: flex;
     flex-direction: column;
     width: 840px;
+    font-size: 20px;
+    text-align: right;
+
 
 }
 
@@ -433,9 +442,9 @@ nav ul li.active:hover {
 
     color: #333533;
     height: 36px;
-    width: 104px;
     line-height: 36px;
-    text-align: center;
+    width: 120px;
+    text-align: right;
 }
 
 .fa-signal {
@@ -449,7 +458,10 @@ nav ul li.active:hover {
     margin-left: 48px;
     margin-top: 54px;
     width: 840px;
+    font-size: 20px;
+
 }
+
 
 .other {
     display: flex;
@@ -457,14 +469,123 @@ nav ul li.active:hover {
     margin-left: 48px;
     margin-top: 54px;
     width: 840px;
+    font-size: 20px;
+
 }
 
 .other li {
     display: inline-block;
-    margin-right: 30px;
+    margin-left: 30px;
     margin-bottom: 16px;
     padding: 7px 24px;
     border: 1px solid #A0A0A0;
     border-radius: 25px;
     font-size: 18px;
+}
+
+
+/* My Project */
+
+section:last-child {
+	margin-left: 48px;
+}
+
+section:last-child h4 {
+	margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.project {
+	border: 1px solid #333533;
+	border-radius: 8px;
+	width: 264px;
+	padding: 10px;
+	margin-bottom: 40px;
+
+}
+.project img{
+    margin: 0;
+}
+.project:not(:last-child) {
+	margin-left: 20px;
+}
+
+.project h5 {
+	font-size: 19px;
+    margin: 16px 0px;
+    line-height: 20PX;
+
+}
+
+.project p {
+	color: #A0A0A0;
+    margin: 0;
+    font-size: 13px;
+}
+
+.tech {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 35px;
+	font-size: 14px;
+}
+
+.tech li {
+	display: inline-block;
+}
+
+.tech img {
+    display: inline-block;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+    margin-left: 4px;
+}
+
+.buttons {
+	display: flex;
+    flex-direction: row-reverse;
+	justify-content: space-between;
+	font-size: 13px;
+}
+
+.buttons i {
+	margin-right: 5px;
+	color: #333533;
+}
+
+.buttons a:first-child {
+	padding: 8px 29px;
+    color: #333533;
+}
+
+.buttons a:first-child:hover,
+.buttons a:hover i {
+	color: #A0A0A0;
+	transition: 0.6s;
+
+}
+
+.buttons a:last-child {
+	padding: 8px 10px;
+	border: 1px solid #333533;
+	border-radius: 4px;
+    color: #333533;
+
+}
+
+.buttons a:last-child:hover,
+.buttons a:hover i {
+	color: #A0A0A0;
+	transition: 0.6s;
+
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	width: 860px;
 }

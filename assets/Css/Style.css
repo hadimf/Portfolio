@@ -133,6 +133,7 @@ body {
 	align-self: flex-start;
 
 }
+
 .header .lang:hover {
 	opacity: 1;
 	transition: 0.6s;
@@ -446,6 +447,7 @@ nav ul li>span.active .marker {
 	margin-left: 48px;
 	width: 840px;
 
+
 }
 
 .skill {
@@ -476,7 +478,7 @@ nav ul li>span.active .marker {
 	color: #A0A0A0;
 	height: 36px;
 	width: 158px;
-
+	
 
 
 }
@@ -558,9 +560,11 @@ section:last-child h4 {
 }
 
 .tech img {
+	display: inline-block;
 	width: 24px;
 	height: 24px;
 	vertical-align: middle;
+    margin-right: 4px;
 }
 
 .buttons {
