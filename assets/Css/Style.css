@@ -525,6 +525,8 @@ section:last-child h4 {
 }
 
 .project {
+	display: flex;
+    flex-direction: column;
 	border: 1px solid #333533;
 	border-radius: 8px;
 	width: 264px;
@@ -539,11 +541,15 @@ section:last-child h4 {
 
 .project h5 {
 	font-size: 19px;
+    margin: 16px 0px 10px 0px;
+	line-height: 20PX;
 
 }
 
 .project p {
 	color: #A0A0A0;
+	margin: 0;
+    font-size: 13px;
 }
 
 .tech {
@@ -553,6 +559,8 @@ section:last-child h4 {
 	align-items: center;
 	margin-right: 35px;
 	font-size: 14px;
+    margin-bottom: 12px;
+
 }
 
 .tech li {
