@@ -1,0 +1,124 @@
+@media only screen and (max-width: 992px) {
+    body {
+        border: #fafafa;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .sections,
+    .projects {
+        width: auto;
+    }
+
+    .header {
+        height: auto;
+        padding: 0;
+
+    }
+
+    .header img {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 70px;
+    }
+
+    .header .title {
+        margin: 0;
+        width: 100%;
+        background-color: #fafafa;
+        text-align: center;
+        padding: 120px 20px 60px;
+        margin-top: 150px;
+
+    }
+
+    .header .lang {
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+
+    .header .title i {
+        color: #333533;
+    }
+
+    .header .name {
+        font-size: 35px;
+        margin-bottom: 25px;
+        color: #333533;
+    }
+
+    .header .position {
+        font-size: 20px;
+        color: #333533;
+
+    }
+
+    .header .button {
+        border-color: #333533;
+        font-size: 14px;
+        color: #333533;
+        display: inline-block;
+        width: 100%;
+
+    }
+
+    .sections {
+        margin-left: 0;
+    }
+
+    .sections section {
+        border-top: 1px solid #d9d9d9;
+        padding: 20px 20px;
+
+    }
+
+    .about ,
+    .info ,
+    .social  {
+        font-size: 16px;
+    }
+    
+    .about p,
+    .info p,
+    .social p{
+        font-size: 0.7em;
+    }
+    .social ul li  span{
+        width: 30px !important;
+        height: 30px !important;
+        background-size: contain;
+    }
+    .skill{
+        font-size: 12px;
+    }
+    .skill .right  {
+        width: 114px;
+    }
+    .skill img{
+        width: 30px;
+        height:30px;
+    }
+    .other li{
+        font-size: 15px;
+        margin-left: 12px;
+        margin-bottom: 8px;
+    }
+    section:last-child {
+        margin-right: 0;
+    }
+    
+    
+
+    .project{
+        width: 100%;
+        margin-right: 0px !important;
+    }
+
+}
