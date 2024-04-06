@@ -146,18 +146,18 @@ body {
 
 /* Navbar */
 
-nav {
+.container nav {
     width: 240px;
     border-right: 1px solid #333533;
     font-size: 24px;
     line-height: 33.6px;
 }
 
-nav ul li.active {
+.container nav ul li.active {
     font-weight: 600;
 }
 
-nav ul .marker {
+.container nav ul .marker {
     width: 48px;
     height: 48px;
     border: 2px solid #333533;
@@ -172,12 +172,12 @@ nav ul .marker {
 
 }
 
-nav ul {
+.container nav ul {
     padding: 0;
     margin: 0;
 }
 
-nav .space {
+.container nav .space {
     display: block;
 
     margin-left: 24px;
@@ -188,12 +188,12 @@ nav .space {
     margin-bottom: 16px;
 }
 
-nav li.active .marker {
+.container nav li.active .marker {
     background-color: #333533;
     color: #FFD100;
 }
 
-nav ul li:hover {
+.container nav ul li:hover {
     display: inline-block;
     cursor: pointer;
     border-radius: 36px;
@@ -204,7 +204,7 @@ nav ul li:hover {
 
 }
 
-nav ul li.active:hover {
+.container nav ul li.active:hover {
     display: inline-block;
     cursor: pointer;
     border-radius: 36px;
